@@ -1,0 +1,39 @@
+body{
+    margin: auto;
+    padding: 20px;
+    width: 40% ;
+    text-align: center;
+}
+
+fieldset{
+    background-color: #F4C7AB;
+    border: black double 5px;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+legend{
+    color: white;
+    font-weight: bold;
+    background-color: #B2B8A3;
+    font-size: larger;
+    text-transform: uppercase;
+}
+
+input, textarea{
+    background-color: #FFF5EB;
+    border-right: 5px solid #B2B8A3;
+    border-bottom: 5px solid #B2B8A3 ;
+}
+
+label{
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+span{
+    background-color:#B2B8A3;
+    border-radius: 100%;
+}
+

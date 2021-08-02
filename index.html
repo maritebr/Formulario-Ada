@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Formulario</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <form action="proces.php" method="POST"> 
+            <fieldset>
+
+                <legend>Your Details:</legend>
+                <label for="">Name: 
+                <input type="text" name="nombre" required>
+                </label>
+                <br>
+                <label for="">Email:    
+                <input type="text" name="email" required>
+                </label>
+        
+            </fieldset>
+            <br>
+        </form>
+
+        <form action="procesa.php" method="POST">
+            <fieldset>
+
+                <legend>Your Review:</legend>
+                <br>
+                <label for="">How did you hear about us?
+                    <select name="navegador" id="" >
+                        <option value="google" >Google</option>
+                    </select>
+                </label>
+                <br>
+                <br>
+                <label for="">Would you visit again? <br>
+                    <span><input type="radio" name="visita" value="yes" ></span>Yes
+                    <span><input type="radio" name="visita" value="no" ></span>No
+                    <span><input type="radio" name="visita" value="maybe" ></span>Maybe
+                </label>
+                <br>
+                <br>
+                <label for="">Comments: <br>
+                    <textarea name="comentario" id="" cols="50" rows="5"></textarea> 
+                </label>
+                <br>
+                <br>
+                <label for="">
+                    <input type="checkbox" name="email" value="updates" >  Sign me up for email updates <br>
+                    <input type="submit" value="Submit review">
+                </label>
+                
+        
+            </fieldset>
+        </form>
+
+    </body>
+</html>
